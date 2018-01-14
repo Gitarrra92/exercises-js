@@ -54,23 +54,41 @@
 // console.log(a)
 
 // Classes
-
-function Car(color, year){
-    this.color = color;
-    this.year = year;
-}
-Car.prototype.sound = function (s) {
-    console.log(s)
-}
-
+//
+// function Car(color, year){
+//     this.color = color;
+//     this.year = year;
+// }
+// Car.prototype.sound = function (s) {
+//     console.log(s)
+// }
+//
 class Car1{
     constructor(color, year){
     this.color = color;
     this.year = year;
 }
-sound(){
+sound(s){
     console.log(s)
 }
 }
 
+
+
+const newObject = new Car1("blue", 1992)
+
+console.log(newObject)
+
+
+//Inheritance in JavaScript
+
+class SportCar extends Car1{
+    constructor(par1,par2,speed){
+    super(par1, par2)
+    this.speed = speed
+}
+}
+
+const ferrari = new SportCar ("red",2001,250)
+console.log(ferrari)
 
