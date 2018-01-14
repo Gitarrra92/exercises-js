@@ -35,21 +35,42 @@
 
 // arrow functions
 
-function returnFullName1 (name, surname) {
-    return name + " " + surname
+// function returnFullName1 (name, surname) {
+//     return name + " " + surname
+// }
+//
+// var x = returnFullName1("Natalia", "Pilewska")
+// console.log(x)
+//
+// var returnFullName2 = function (name, surname) {
+//     return name + " " + surname
+// }
+//
+// var y = returnFullName2("Anna", "Kowalska")
+// console.log(y)
+//
+// const returnFullName3 = (name, surname) => (name + " " + surname)
+// var a = returnFullName3("dupa", "blada")
+// console.log(a)
+
+// Classes
+
+function Car(color, year){
+    this.color = color;
+    this.year = year;
+}
+Car.prototype.sound = function (s) {
+    console.log(s)
 }
 
-var x = returnFullName1("Natalia", "Pilewska")
-console.log(x)
-
-var returnFullName2 = function (name, surname) {
-    return name + " " + surname
+class Car1{
+    constructor(color, year){
+    this.color = color;
+    this.year = year;
+}
+sound(){
+    console.log(s)
+}
 }
 
-var y = returnFullName2("Anna", "Kowalska")
-console.log(y)
-
-const returnFullName3 = (name, surname) => (name + " " + surname)
-var a = returnFullName3("dupa", "blada")
-console.log(a)
 
