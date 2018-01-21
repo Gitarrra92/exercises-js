@@ -131,6 +131,32 @@
 //};
 
 
+//DESTRUKTURYZACJA TABLIC
+//1.
+//const a = ["one", "two", "three"];
+//const[b,c,d] = a
+//console.log(b)
+//console.log(c)
+//console.log(d)
+
+//2.
+//const arr = ["one", "two", "three"];
+//const[a,b,c] = arr
+//console.log(a)
+
+//3.
+
+//const myArray = ["one", "two", "three"];
+//const[x,y,z] =myArray
+//console.log(z)
+
+//4.
+//var a,b;
+//[a,b] = [1,2];
+//console.log(a);
+
+
+
 
 
 
