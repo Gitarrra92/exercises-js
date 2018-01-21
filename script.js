@@ -63,32 +63,77 @@
 //     console.log(s)
 // }
 //
-class Car1{
-    constructor(color, year){
-    this.color = color;
-    this.year = year;
-}
-sound(s){
-    console.log(s)
-}
-}
+//class Car1{
+  //  constructor(color, year){
+  //  this.color = color;
+   // this.year = year;
+//}
+//sound(s){
+    //console.log(s)
+//}
+//}
 
 
 
-const newObject = new Car1("blue", 1992)
+//const newObject = new Car1("blue", 1992)
 
-console.log(newObject)
+//console.log(newObject)
 
 
 //Inheritance in JavaScript
 
-class SportCar extends Car1{
-    constructor(par1,par2,speed){
-    super(par1, par2)
-    this.speed = speed
-}
-}
+//class SportCar extends Car1{
+    //constructor(par1,par2,speed){
+   // super(par1, par2)
+    //this.speed = speed
+//}
+//}
+//const ferrari = new SportCar ("red",2001,250)
+//console.log(ferrari)
+//Constructor function
 
-const ferrari = new SportCar ("red",2001,250)
-console.log(ferrari)
+// ES6
+
+//const name = "Natalia";
+//const msg = "Message ${name}";
+
+
+
+//const name = "Andrzej";
+//const hi =" Hi ${name}";
+
+//msg = `Hello ${name} how are you? `
+
+
+// arrow function
+//let up = function(name){
+   // return name.toUpperCase();
+//}
+
+//let up = name => name.toUpperCase();
+
+
+// arrow function- this
+//let init = function() {
+    //this.message = 'Arizona dream';
+   // let self = this;
+    //document.body.addEventListener("click", function() {
+      //  alert(self.message);
+    //});
+//};
+//init();
+
+//let init = function() {
+   // this.message = 'Arizona dream';
+   // let self = this;
+    //document.body.addEventListener("click" = () => alert(this.message))
+//});
+//};
+
+
+
+
+
+
+
 
