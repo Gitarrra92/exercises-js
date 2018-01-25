@@ -155,10 +155,24 @@
 //[a,b] = [1,2];
 //console.log(a);
 
+// DOM
 
+var myDiv = document.getElementById("wrapper")
+var myUl = document.createElement("ul")
+myDiv.appendChild(myUl)
 
+var myLi = document.createElement("li")
+myUl.appendChild(myLi)
 
+myLi.innerHTML = "Polska"
 
+var myNewLi = document.createElement("li")
+myNewLi.innerHTML = "Szwajcaria"
+myUl.appendChild(myNewLi)
+
+var myThirdLi = document.createElement("li")
+myThirdLi.innerHTML = "Spitsbergen"
+myUl.appendChild(myThirdLi)
 
 
 
